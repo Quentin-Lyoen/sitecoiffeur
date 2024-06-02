@@ -1,9 +1,14 @@
+@font-face {
+    font-family: 'DancingScript'; /* Name your font family */
+    src: url("../font/DancingScript-VariableFont_wght.ttf"); /* Locate the .ttf file within your directory*/
+}
+
 main>h1{
     display: flex;
     justify-content: center;
     color: #644D45;
-    font-size: 200%;
-    font-family: "Sevillana", cursive;
+    font-size: 300%;
+    font-family: "DancingScript", sans-serif;
     /**margin-bottom: 500px;**/
 }
 
