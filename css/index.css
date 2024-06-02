@@ -1,0 +1,50 @@
+main>h1{
+    display: flex;
+    justify-content: center;
+    color: #644D45;
+    font-size: 200%;
+    font-family: "Sevillana", cursive;
+    /**margin-bottom: 500px;**/
+}
+
+main>p{
+    text-align: center;
+    font-size: 130%;
+    font-family: "LXGW WenKai Mono TC", monospace;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20%;
+}
+
+#horaires{
+    margin-left: 2%;
+    font-family: "LXGW WenKai Mono TC", monospace;
+}
+
+#horaires>p{
+    font-size: 120%;
+}
+
+#horaires>nav>ul>li{
+    font-size: 110%;
+}
+
+#tarifs{
+    margin-left: 2%;
+    font-family: "LXGW WenKai Mono TC", monospace;
+}
+
+#tarifs>p{
+    font-size: 120%;
+}
+
+#tarifs>nav>ul>li{
+    font-size: 110%;
+}
+
+
+
+
