@@ -1,6 +1,14 @@
 @font-face {
-    font-family: 'DancingScript'; /* Name your font family */
-    src: url("../font/DancingScript-VariableFont_wght.ttf"); /* Locate the .ttf file within your directory*/
+    font-family: 'DancingScript';
+    src: url("../font/DancingScript-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: 'LXG_reg';
+    src: url("../font/LXGWWenKaiTC-Regular.ttf");
+}
+@font-face {
+    font-family: 'LXG_bold';
+    src: url("../font/LXGWWenKaiTC-Bold.ttf");
 }
 
 main>h1{
@@ -15,7 +23,7 @@ main>h1{
 main>p{
     text-align: center;
     font-size: 130%;
-    font-family: "LXGW WenKai Mono TC", monospace;
+    font-family: "LXG_bold", sans-serif;
 }
 
 #main{
@@ -26,7 +34,7 @@ main>p{
 
 #horaires{
     margin-left: 2%;
-    font-family: "LXGW WenKai Mono TC", monospace;
+    font-family: "LXG_reg", sans-serif;
 }
 
 #horaires>p{
@@ -39,7 +47,7 @@ main>p{
 
 #tarifs{
     margin-left: 2%;
-    font-family: "LXGW WenKai Mono TC", monospace;
+    font-family: "LXG_reg", sans-serif;
 }
 
 #tarifs>p{
