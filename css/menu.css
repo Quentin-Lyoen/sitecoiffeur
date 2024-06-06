@@ -72,12 +72,13 @@ footer{
 	background-color: #faf8f2;
 }
 
-footer>p{
+#coo>p{
     font-size: 130%;
     font-family: "LXG_bold", sans-serif;
 }
 
-footer>a>img{
+#reseaux>a>img{
 	height: 5%;
 	width: 5%;
+	margin-left: 3%;
 }

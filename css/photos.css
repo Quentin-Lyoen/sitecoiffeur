@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'LXG_bold';
+    src: url("../font/LXGWWenKaiTC-Bold.ttf");
+}
+
+main img{
+    width: 15%;
+    height: 15%;
+    margin-left: 10%;
+}
+
+main h1{
+    margin-left: 2%;
+    font-family: "LXG_bold", sans-serif;
+    font-size: 200%;
+}
